@@ -1,0 +1,19 @@
+{
+  "name": "project-mia-chat",
+  "version": "1.0.0",
+  "description": "Projeto Aprendizagem Clone Wpp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "Bruno Fontana",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^6.2.4",
+    "pdfjs-dist": "^2.0.943",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
